@@ -1,7 +1,5 @@
-# M10-Inteli-Eng-Comp
-Repositório criado para distribuir o material que será utilizado ao longo do módulo 10 de Engenharia de Computação.
-
-Para ver a documentação deployada, acesse: [link](https://murilo-zc.github.io/M10-Inteli-Eng-Comp/)
+# Entrega da atividade feita em sala
 
 ## Vídeo 
+[Screencast from 16-05-2024 11:59:17.webm](https://github.com/FelipeCampos14/M10-Inteli-Eng-Comp-encontro08/assets/99193547/e625bee6-2aa1-4306-9a17-a241726c0f6c)
 
