@@ -1,6 +1,7 @@
 // home.dart
 import 'package:flutter/material.dart';
 
+
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -12,7 +13,7 @@ class Home extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
+          children: [ 
             const Text("Agendamento de Notificações",
             style: TextStyle(color: Colors.white, fontSize: 24),),
             IconButton(
@@ -40,6 +41,22 @@ class Home extends StatelessWidget {
               icon: ClipRRect(
                 borderRadius: BorderRadius.circular(20.0),
                 child: Image.asset('assets/shiba01.png',
+                  width: 200,
+                  height: 200,
+                  fit: BoxFit.contain,),
+              ),
+            ),
+            const Text("Share image",
+            style: TextStyle(color: Colors.white, fontSize: 24),
+            ),
+            IconButton(
+              onPressed: () {
+                // Navegar para a tela de remoção de fundo de imagens
+                Navigator.pushNamed(context, '/share_file');
+              },
+              icon: ClipRRect(
+                borderRadius: BorderRadius.circular(20.0),
+                child: Image.asset('assets/shiba02.png',
                   width: 200,
                   height: 200,
                   fit: BoxFit.contain,),

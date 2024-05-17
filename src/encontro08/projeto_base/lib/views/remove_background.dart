@@ -24,7 +24,7 @@ class RemoveBackground extends StatelessWidget {
             
           ],
         ),
-      ),
+      ),  
     );
   }
 }

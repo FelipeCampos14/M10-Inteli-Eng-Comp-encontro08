@@ -2,6 +2,8 @@ import 'package:encontro_08/views/home.dart';
 import 'package:encontro_08/views/local_notifications.dart';
 import 'package:encontro_08/views/remove_background.dart';
 import 'package:flutter/material.dart';
+import 'package:encontro_08/views/share_image.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -24,6 +26,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => Home(),
         '/local_notifications': (context) => const LocalNotifications(),
         '/remove_background': (context) => const RemoveBackground(),
+        '/share_file': (context) => ShareImageWidget(),
       },
     );
   }
